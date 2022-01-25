@@ -1,50 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Slava Zolotov</title>
-</head>
-<body>
-<style>
-    img {
-        animation: infinite animation-1 5s;
-        border-radius: 100%;
+    <style>
+      img {
+        /* animation: infinte animation-1 5s; */
         width: 220px;
         height: 220px;
-    }
+      }
 
-    @keyframes animation-1 {
+      @keyframes animation-1 {
         0% {
-            transform: rotate(0deg);
-            transform:translate(0);
+          transform: rotate(0deg);
+          transform: translate(0);
         }
-        
-        50% {
-            transform:translate(calc(100vw - 220px), 0) rotate(360deg);
-            border-color:#875678;
-        }
-        
-        100% {
-            transform:translate(0) rotate(0deg);
-        }
-    }
-</style>
-<br>
-<br>
-    <img src="https://animaljournal.ru/articles/top/interesnoe/fakti_o_ejah/interesnie_fakti_o_ejah.jpg"
-    alt="тут я в трусах"/>
- <h1>Святослав Золотов</h1> 
- <p>Я начинаюши в <strong>сфере</strong> Html </p>
- <P><em>Люблю кататся на сноуборде</em></P>
- <hr>
- <h2>Мои социалныек сети</h2>
- <ul type="square">
-     <li><a href="https://vk.com/idfootball_rus" target="_blank">VK</a></li>
-    </ul>
- <h2>Мои заняти(Хобби)</h2>
 
- <h2>Шутка</h2>
- <a href="http://risovach.ru/upload/2017/02/mem/prikol_137517740_orig_.jpg" target="_blank">Тыкни
- </a>
-</body>
+        50% {
+          transform: translate(calc(100vw - 220px), 0) rotate(360deg);
+          border-color: #ff0000;
+        }
+
+        100% {
+          transform: translate(0) rotate(0deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td>
+          <img
+            src="https://oir.mobi/uploads/posts/2021-09/thumbs/1631201820_34-oir-mobi-p-tsvetochki-dlya-detei-tsveti-krasivo-foto-37.png"
+            alt="тут я в трусах"
+          />
+        </td>
+
+        <td>
+          <h1>Святослав Золотов</h1>
+          <p>Я начинаюши в <strong>сфере Html </strong></p>
+          <p><strong> Люблю кататся на сноуборде</strong></p>
+        </td>
+      </tr>
+    </table>
+
+    <br />
+    <br />
+    <hr />
+    <h2>Мои социалныек сети</h2>
+    <ul type="square">
+      <li><a href="https://vk.com/idfootball_rus" target="_blank">VK</a></li>
+    </ul>
+    <hr />
+    <h2>
+      Опыт обучения
+      <table>
+        <tr>
+          <td>Барнаул</td>
+          <td>1класс</td>
+          <td>2015 - 2016</td>
+        </tr>
+        <tr>
+          <td>СПБ</td>
+          <td>2класс</td>
+          <td>2016 - 2017</td>
+        </tr>
+        <tr>
+          <td>Барнаул</td>
+          <td>3 - 7класс</td>
+          <td>2017 - 2022</td>
+        </tr>
+      </table>
+    </h2>
+    <hr />
+
+    <a href="https://cdn.promodj.com/afs/a86c827872d65825981501406860d6a7:resize:900x900:same:promodj:190642"
+      ><button onclick="alert('ты дебик!')">нажми</button></a
+    >
+    <h2>Связатся со мной</h2>
+ <form>
+     <label for="name">Ваше имя:</label>
+     <input type="text" id=" name"
+     placeholder="Имя,фамилия">
+ </form>
+ <form>
+ <label for="name">Ваш Emil:</label>
+ <input type="text" id=" name"
+ placeholder="Emil">
+</form>
+<form>
+    <label for="name">Ваш телефон:</label>
+    <input type="text" id=" name"
+    placeholder="телефон">
+</form>
+  </body>
 </html>
